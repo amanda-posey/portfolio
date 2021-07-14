@@ -7,6 +7,7 @@
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-black-color: #000000;
 }
 
 body {
@@ -23,8 +24,13 @@ nav a.nav-link{
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
-nav ul li{
+
+nav ul {
   text-transform: uppercase;
+}
+
+nav ul li{
+  justify-content: end;
 }
 
 .navbar-nav > li > a {
@@ -188,4 +194,94 @@ nav ul li{
 
 .services .box:hover .circle {
   background-color: var(--primary-white);
+}
+
+/********************PORTFOLIO*********************/
+
+.portfolio-wrapper {
+  background: var(--primary-light-gray);
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-image {
+  width: 40rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0.5rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black-color);
+  width: 40rem;
+  height: 20.1rem;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+  
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.4s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.4s ease-in-out;
+}
+
+/********************POPUP*********************/
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5;
+}
+
+.link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.link:hover {
+  cursor: pointer;
+  color: var(--primary-red);
+}
+
+/********************MEDIA*********************/
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px) {
+  .portfolio-image-popupbox {
+    width: 80%;
+  }
 }
