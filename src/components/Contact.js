@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 const Contact = () => {
@@ -21,7 +21,7 @@ const Contact = () => {
                             <div className="box">
                             <div className="circle"><FontAwesomeIcon className='icon' icon={faGithub} size='2x'/></div>
                                 <a className='link' href='https://github.com/amanda-posey'>GitHub</a>
-                                <p>Have a look at my past work.</p>
+                                <p>Have a look at my past projects.</p>
                             </div>
                         </div>
                     </div>
