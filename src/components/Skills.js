@@ -28,7 +28,7 @@ function Skills() {
                             <div className="box">
                             <div className="circle"><FontAwesomeIcon className='icon' icon={faTools} size='2x'/></div>
                                 <h2>Tools</h2>
-                                <p>Github | Slack | Zoom | Object-Oriented Programming | LucidChart</p>
+                                <p>Github | Slack | Zoom | Object-Oriented Programming | LucidChart | Heroku</p>
                             </div>
                         </div>
                     </div>
