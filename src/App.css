@@ -334,6 +334,14 @@ nav ul {
   transition: 0.4s ease-in-out;
 }
 
+.contact a {
+  text-decoration: none !important;
+}
+
+.contact h2, p {
+  color: var(--primary-dark);
+}
+
 .contact .box:hover {
   background-color: var(--primary-orange);
   border-bottom: 0.3125rem solid var(--primary-dark);
