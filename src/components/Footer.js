@@ -59,8 +59,8 @@ function Footer() {
                             </RedditShareButton>
                         </div>
                         <div className="pt-3 text-center">
-                            Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;Amanda Posey | All Rights Reserved
+                            Copyright &copy;
+                            {new Date().getFullYear()}&nbsp; Amanda Posey | All Rights Reserved
                         </div>
                     </div>
                 </div>

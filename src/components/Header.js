@@ -6,14 +6,14 @@ const Header = () => {
 <div className="header-wrapper" id='header'>
         <div className="main-info">
             <h1>Hi! I'm Amanda.</h1>
-            I really like...
+            <p>I really like... &nbsp;
             <Typed 
                 className='typed-text'
                 strings={['web design.', 'debugging.', 'web development.', 'puzzle solving.', 'comic relief.']}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
-            />
+            /></p>
             <a href='#contact' className='btn-main-offer'>Contact Me</a>
         </div>
 </div>

@@ -84,9 +84,18 @@ nav ul {
   color: var(--primary-orange);
 }
 
+.main-info p {
+  color: var(--primary-light-gray);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 @media(max-width: 768px) {
   .main-info h1 {
     font-size: 1.5rem !important;
+  }
+  .main-info p {
+    font-size: 1.2rem;
   }
 }
 /********************TYPED*TEXT*********************/
@@ -323,6 +332,14 @@ nav ul {
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   transition: 0.4s ease-in-out;
+}
+
+.contact a {
+  text-decoration: none !important;
+}
+
+.contact h2, p {
+  color: var(--primary-dark);
 }
 
 .contact .box:hover {
